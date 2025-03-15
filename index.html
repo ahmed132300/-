@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اين الطريق</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        <nav class="nav">
+            <a href="./index.html">الرئيسيه</a>
+            <a href="./pages/المكتبة الصوتية.html">المكتبة الصوتية</a>
+            <a href="./pages/الفيديوهات.html">الفيديوهات</a>
+        </nav>
+        <div class="logo">اين الطريق
+        </div>
+    </header>
+    <div class="img-container">
+        <div class="photo">
+            <img src="./images/j.png" alt="">
+        </div>
+    </div>
+    <div class="co">
+        
+        <div class="c-container">
+        <div class="cato" >
+<a href="./pages/المكتبة الصوتية.html"><img class="imgg" src="./images/المكتبة الصوتيه.png"  alt=""></a>
+        </div>
+        <div class="cato">
+            <a href="./pages/الفيديوهات.html"><img class="imgg" src="./images/فيديو.png"  alt=""></a>
+        </div>
+    </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
